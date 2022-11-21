@@ -1,0 +1,59 @@
+* {
+  font-family: 'Abhaya Libre', serif;
+  border-radius: 0 !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Utils */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-scroll-y {
+  overflow-y: auto;
+}
+
+/* Social Icons */
+.socials .icon {
+  background-color: whitesmoke;
+  border: 2px var(--bs-yellow) solid;
+  border-radius: 50% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  transition: all 0.3s ease-in;
+}
+
+.socials .icon svg {
+  height: 20px;
+  width: 20px;
+}
+
+.socials .icon:hover {
+  background-color: transparent;
+}
+
+.launching {
+  padding: 0.5rem 1rem;
+  background-color: var(--bs-yellow);
+  display: inline-block !important;
+}
+
+.features, .__feature {
+  border-left: 3px var(--bs-yellow) solid;
+}
+.__feature {
+  padding-left: 0.5rem;
+}
+@media(max-width:500px) {
+  .banner__text {
+    text-align: center;
+    align-items: center;
+  }
+}
